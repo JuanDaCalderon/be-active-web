@@ -15,15 +15,22 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { CrearPausaComponent } from './crear-pausa/crear-pausa.component';
 import { CrearEjercicioComponent } from './crear-ejercicio/crear-ejercicio.component';
+import {CdkMenu, CdkMenuItem, CdkMenuTrigger} from '@angular/cdk/menu';
+import { MatSelectModule } from '@angular/material/select';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ConfirmacionModalComponent } from './confirmacion-modal/confirmacion-modal.component';
+import { CrearEjercicioModalComponent } from './crear-ejercicio-modal/crear-ejercicio-modal.component';
 
 @NgModule({
-  declarations: [
+  declarations: [		
     AppComponent,
     LoginComponent,
     HomeComponent,
     CrearPausaComponent,
-    CrearEjercicioComponent
-  ],
+    CrearEjercicioComponent,
+      ConfirmacionModalComponent,
+      CrearEjercicioModalComponent
+   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -34,6 +41,11 @@ import { CrearEjercicioComponent } from './crear-ejercicio/crear-ejercicio.compo
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
+    CdkMenu,
+    CdkMenuItem,
+    CdkMenuTrigger,
+    MatSelectModule,
+    MatDialogModule
   ],
   exports:[RouterModule, LoginComponent],
   providers: [],
