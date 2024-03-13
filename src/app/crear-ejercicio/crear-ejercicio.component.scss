@@ -1,0 +1,32 @@
+.titulo {
+  font-family: "Roboto Bold", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #3B5041;
+  height: 100%;
+  max-height: 66px;
+
+  grid-column: 4 / 10;
+  grid-row: 3;
+  margin: auto auto;
+  height:100%
+}
+
+
+.opcion {
+  border-color: #73CF8A ;
+  background-color: F4F9F6;
+  border-radius: 4px;
+  color: #1D3323;
+  width:100%;
+
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: light;
+  height: 100%;
+}
+
+.opcion:hover{
+  background-color: lightgrey;
+}
+
