@@ -21,7 +21,7 @@
 
 ## Instalacion
 
-1. Descargue el repostorio
+1. Descargue el repostorio que esta en el siguiente enlace https://github.com/JuanDaCalderon/be-active-web
 
 2. En la carpeta principal del proyecto (BeActiveWeb) ejecute el comando `npm install` , con lo que instalara la dependencias 
 
